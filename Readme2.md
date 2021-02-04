@@ -34,7 +34,6 @@ Tiim **Word?** valis selleks kõrvalrakenduseks sõna arvamise mängu, mida saab
 
 ## Suhtluskanalid: 
 - Slack
-- Github
 - Teams
 
 ## Töövahendid ja lingid: 
