@@ -26,6 +26,7 @@ Tiim **Word?** valis selleks kõrvalrakenduseks sõna arvamise mängu, mida saab
  - Disainireeglite loomine
  - Eelneva põhjal HTML ja CSS loomine
  - Testimine
+ 
 **Teine kursus - TAK-19 ja TA-19**
  - Esimese kursuse juhendamine ja abistamine
  - Back-end ehk andmebaas ja server
