@@ -341,6 +341,6 @@ io.on('connection', (socket) => {
     }
 }); //end of socket server listener
 
-http.listen(process.env.PORT || 3000, () => {
+http.listen(process.env.PORT || 8000, () => {
     console.log("Waiting for visitors");
 });
