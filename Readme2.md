@@ -27,7 +27,7 @@ Suhtluskanalid: Slack, Github
 Töövahendid: Githubi`s repository tegemine + (Word Guessing Game) + issued
 VS Code ja Figma
 
-[Wireframe](https://www.figma.com/proto/Live3cD0KFTNqMM44Go2nt/Wireframe?node-id=521%3A37&scaling=scale-down)
+[Wireframe](https://www.figma.com/file/Live3cD0KFTNqMM44Go2nt/Wireframe?node-id=6%3A18)
 
 
 Iga tiimi liikme nime ja vastuseid kolmele küsimusele:
