@@ -33,14 +33,14 @@ Tiim **Word?** valis selleks kõrvalrakenduseks sõna arvamise mängu, mida saab
  - JavaScript
 
 ## Suhtluskanalid: 
-Slack
-Github
-Teams
+- Slack
+- Github
+- Teams
 
 ## Töövahendid ja lingid: 
-Github
-VS Code
-Figma [Wireframe](https://www.figma.com/proto/Live3cD0KFTNqMM44Go2nt/Wireframe?node-id=497%3A792&scaling=scale-down)
+- Github
+- VS Code
+- Figma [Wireframe](https://www.figma.com/proto/Live3cD0KFTNqMM44Go2nt/Wireframe?node-id=497%3A792&scaling=scale-down)
 
 
 ## Küsimused projekti kohta
