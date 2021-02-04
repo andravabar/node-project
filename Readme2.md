@@ -59,5 +59,8 @@ Tiim **Word?** valis selleks kõrvalrakenduseks sõna arvamise mängu, mida saab
 
 **Andra Vabar:**
 
-**Mattias A. Kaerma:**
+**Mattias A. Kaerma:** *Esimesel päeval ma puudusin ja kui jõudsin teiselpäeval kooli siis liitusin ma jälle figma tiimiga, kuna seal oli vaja veidikene abi siis otsustasin sinna jääda. Olen oma ülessandega rahul
+*Õppisin täitma korrektselt readme.md faili
+*Jällegi kujundamise osa, ja ekraanide linkimine Figmas
+
 
