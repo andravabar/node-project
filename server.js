@@ -225,7 +225,7 @@ const checkGuess = (letter) => {
 const checkEnoughPlayers = () => {
 		userCount = Object.keys(users).length;
 		//if there is more than 1 player, show start game button
-		if (userCount > 1) io.to('Game Room').emit('show start game button');
+		if (userCount > 0) io.to('Game Room').emit('show start game button');
 }
 
 
