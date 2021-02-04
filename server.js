@@ -64,7 +64,7 @@ app.get("/", (req, res) => {
     if (sess.username && sess.password) {
         sess = req.session;
         if (sess.username) {
-            res.sendFile(__dirname + '/public/index.html');
+            res.sendFile(__dirname + '/public/game.html');
         }
     } else {
         res.sendFile(__dirname + "/public/login.html");

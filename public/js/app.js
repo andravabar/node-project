@@ -35,7 +35,7 @@ socket.on('chat_message', msgObj => {
     const item = document.createElement('div');
     item.innerHTML = `
         <div>
-            <p><b>${ msgObj.user }</b>: ${ msgObj.message }</p>           
+            <p><b>${ msgObj.user }</b>: ${ msgObj.message }</p>
         </div>
     `
     chatMessages.appendChild(item);
