@@ -19,7 +19,7 @@ Kõik tiimi liikmed on pärit Eestist ning õpivad Kuressaare Ametikoolis tarkva
 Projekti eesmärk oli etteantud Node.js ja Socket.io koodibaasi peale luua edasiarendatud rakendus, mis kasutab klient-server tehnoloogiat. 
 Tiim **Word?** valis selleks kõrvalrakenduseks sõna arvamise mängu, mida saab chati-keskkonnas mängida teiste chatis olevate liikmetega.
 
-##Vahe eesmärgid
+### Vahe eesmärgid
 **Esimine kursus - TA-20**
  - Aru saada klient-server rakenduse tööpõhimõtetest
  - Analüüsi põhjal wireframe koostamine ja testimine
