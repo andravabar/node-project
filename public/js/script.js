@@ -57,22 +57,22 @@ $(() => {
 
     socket.on('list users', (users) => {
         $('#users').html("");
+        console.log(users)
         for (let id in users) {
             $('#users').append(`<li> ${users[id]} </li>`);
         }
     });
 
-    socket.on('set username', () => {
-        while (username === "" || username === null) {
-            username = prompt("Please enter a username");
-            if (username) {
-                socket.emit('add username', username);
-            }
-        }
-    });
-
+    // socket.on('set username', () => {
+    //     while (username === "" || username === null) {
+    //         username = prompt("Please enter a username");
+    //         if (username) {
+    //             socket.emit('add username', username);
+    //         }
+    //     }
+    // });
 		socket.on('set word', () => {
-            let words = ["monitor", "program", "application", "keyboard", "javascript", "gaming", "network"];
+            let words = ["monitor", "program", "application", "keyboard", "javascript", "gaming", "network", "algorithm", "backup", "browser", "browser", "download", "gigabyte", "hacker", "sudo", "motherboard", "password", "privacy", "resolution", "screen", "software", "storage", "teminal", "virus", "wireless", "screenshot"];
 			let word = "";
 			while (word === "" || word === null) {
 					word = words[Math.floor(Math.random() * words.length)];
@@ -83,7 +83,7 @@ $(() => {
 		});
 
     socket.on('update lives', (lives) => {
-        $("#lives").html(`Lives: ${lives}`);
+        $("#lives").html(`Lives left: ${lives}`);
     });
 
     socket.on('guessed word', (guessedWord) => {

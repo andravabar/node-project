@@ -1,7 +1,7 @@
 var socket = io();
 
-const messageInput = document.getElementById('message-input');
-const chatMessages = document.getElementById('chat-messages');
+const messageInput = document.getElementById('text-message');
+const chatMessages = document.getElementById('messages');
 const userList = document.getElementById('user-list');
 
 messageInput.focus();

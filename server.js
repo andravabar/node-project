@@ -235,6 +235,8 @@ resetGame();
 io.on('connection', (socket) => {
     userCount = Object.keys(users).length;
 
+    const sess = socket.request.session
+
     //Game limited to 3 players
     if (userCount >= 3) {
         io.to(socket.id).emit('full game');
@@ -242,9 +244,11 @@ io.on('connection', (socket) => {
     } else {
         socket.join('Game Room');
         console.log('A user connected');
-
-        io.to('Game Room').emit('set username');
-
+        
+        
+        // io.to('Game Room').emit('set username');
+        io.to('Game Room').emit('set username', sess.username)
+        io.to('Game Room').emit('list users', users);
         if (gameStarted) loadGame();
 
         //Socket listeners =====================================================
