@@ -41,6 +41,7 @@ $(() => {
 
 		$('#button-container').on("click", "#start-game", () => {
         socket.emit('get word');
+        console.log('get word')
     });
 
     $('#button-container').on("click", "#play-again", () => {
@@ -55,12 +56,16 @@ $(() => {
         $('#messages').append($('<li>').text(message));
     });
 
-    socket.on('list users', (users) => {
-        $('#users').html("");
+    socket.on('updateUserList', (users) => {
+        //$('#users').html("");
         console.log(users)
-        for (let id in users) {
-            $('#users').append(`<li> ${users[id]} </li>`);
+        //for (let id in users) {
+        //    $('#users').append(`<li> ${users[id]} </li>`);
+        //}
+        if (Object.keys(users).length > 1 ){
+            $("#button-container").html("<button id='start-game' class='button'>Start Game </button>")
         }
+        console.log(Object.keys(users).length)
     });
     
     // socket.on('set username', () => {
@@ -72,14 +77,8 @@ $(() => {
     //     }
     // });
 		socket.on('set word', () => {
-            let words = ["monitor", "program", "application", "keyboard", "javascript", "gaming"];
-			let word = "";
-			while (word === "" || word === null) {
-					word = words[Math.floor(Math.random() * words.length)];
-					if (word) {
-							socket.emit('start game', word);
-					}
-			}
+            console.log('set word')
+            
 		});
 
     socket.on('update lives', (lives) => {
@@ -88,6 +87,7 @@ $(() => {
 
     socket.on('guessed word', (guessedWord) => {
         $("#guessed-word").html(guessedWord);
+        console.log(guessedWord)
     });
 
     socket.on('game result', (result) => {

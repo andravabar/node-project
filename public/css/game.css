@@ -180,14 +180,14 @@ ul, li{
 	border-top: 1px solid #484c52;
 }
 
-#message-box input, #leave-chat{
+#message-box input, .leave-chat{
 	padding: 8px;
 	border: none;
 	color: white;
 	background: #484c52;
 }
 
-#leave-chat{
+.leave-chat{
 	border-radius: 5px;
 	margin: 0;
 	margin-top: 20px;
@@ -195,7 +195,7 @@ ul, li{
 	transition: all .5s;
 }
 
-#leave-chat:hover{
+.leave-chat:hover{
 	background-color: #6c6f74;
 }
 

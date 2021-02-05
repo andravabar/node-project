@@ -40,8 +40,9 @@ socket.on('chat_message', msgObj => {
     `
     chatMessages.appendChild(item);
 });
-
-document.getElementById('logout').onclick = function() {
+let logoutBtn = document.getElementById('logout')
+console.log(logoutBtn)
+logoutBtn.onclick = function() {
     console.log('logout');
     location.href = '/logout';
 };

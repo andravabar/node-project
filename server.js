@@ -168,7 +168,6 @@ app.get('/', (req, res) => {
 });
 
 const loadGame = () => {
-	io.to('Game Room').emit('list users', users);
 	io.to('Game Room').emit('generate letter buttons', allGuesses, gameMaster);
 	io.to('Game Room').emit('guessed word', guessedWord);
 	io.to('Game Room').emit('update lives', lives);
@@ -187,7 +186,19 @@ const resetGame = () => {
 
 const getWord = () => {
 		//hide start game / play again button
-		io.to('Game Room').emit('hide button');
+        io.to('Game Room').emit('hide button');
+        let words = ["monitor", "program", "application", "keyboard", "javascript", "gaming"];
+			let chosenWord = "";
+			while (chosenWord === "" || chosenWord === null) {
+                chosenWord = words[Math.floor(Math.random() * words.length)];
+					if (chosenWord) {
+							word = chosenWord
+					}
+            }
+            gameStarted = true;
+            //replaces word with blanks
+            guessedWord = word.replace(/[^ ]/g, '_ ');
+        loadGame()
 };
 
 const checkGuess = (letter) => {
@@ -218,7 +229,8 @@ const checkGuess = (letter) => {
 const checkEnoughPlayers = () => {
 		userCount = Object.keys(users).length;
 		//if there is more than 1 player, show start game button
-		if (userCount > 1) io.to('Game Room').emit('show start game button');
+        if (userCount > 1) io.to('Game Room').emit('show start game button');
+        console.log(userCount)
 }
 
 
@@ -253,6 +265,7 @@ io.on('connection', (socket) => {
             //updates list of usernames
             io.to('Game Room').emit('list users', users);
             if (gameStarted === false) checkEnoughPlayers();
+            console.log(username)
         });
 
 				socket.on('chatroom message', (username, message) => {
