@@ -65,6 +65,9 @@ Kõrvalrakenduseks sai valitud online sõna arvamise mäng kahe inimese vahel, k
 **Mikk Lehtsaar:**
 
 **Timo Pirn:**
+1. Olen rahul määratud ülesandega. Selle projektiga ei oleks tahtnud alustada JavaScriptiga tutvumist, sest natuke liiga keeruline.
+2. Tiimiga suhtlemist.
+3. Terminali ja Gitiga töötamist.
 
 **Andra Vabar:**
 1. Olin rahul endale seatud ülesandega selles meeskonnas.
