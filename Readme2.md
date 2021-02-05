@@ -69,7 +69,7 @@ Kõrvalrakenduseks sai valitud online sõna arvamise mäng kahe inimese vahel, k
 **Andra Vabar:**
 1. Olin rahul endale seatud ülesandega selles meeskonnas.
 2. Sain veelkord kinnitust, et mulle meeldib tiim vestlusesse haarata ja iga viimne kui üks liige arutlema panna, võttes endale nö moderaatori rolli. Arendasin endas kindlasti kuulamise oskust, teisalt õppisin, kuidas enda ideid paremini selgemaks ja arusaadavamaks teha teistele.
-3. Github'ga seotud oskusi sai arendatud - kuidas uut versiooni endale branchida, muudatusi teha ning seejärel repository pushida.
+3. Github'ga seotud oskusi sai arendatud - kuidas uut versiooni endale branchida, muudatusi teha ning seejärel repository'sse pushida. Lisaks kinnistusid Figmaga seotud oskused.
 
 **Mattias A. Kaerma:**
 1. Esimesel päeval ma puudusin ja kui jõudsin teiselpäeval kooli siis liitusin ma jälle figma tiimiga, kuna seal oli vaja veidikene abi siis otsustasin sinna jääda. Olen oma ülessandega rahul
