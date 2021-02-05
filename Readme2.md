@@ -56,6 +56,9 @@ Kõrvalrakenduseks sai valitud online sõna arvamise mäng kahe inimese vahel, k
 3. Sain socket.io ja node js kohta rohkem teada ja kuidas neid täpsemalt kasutada.
 
 **Erki Tammeaid:**
+1. Ma olen rahul endale määratud ülesandega, kuigi javascripti ma kõige rohkem ei oska.
+2. Õppisin paremini koostööd tegema ja abivajajaid aitama nii kontaktis, kui ka Teamsi vahendusel.
+3. Sain node.js-i kohta natukene rohkem teada.
 
 **Laura Lepik:**
 
