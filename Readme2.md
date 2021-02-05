@@ -51,6 +51,9 @@ Kõrvalrakenduseks sai valitud online sõna arvamise mäng kahe inimese vahel, k
  - Üks tehniline oskus, mida õppisin ja endas arendasin
 
 **Markus Rätsep:**
+1. Kuna ma ei ole Javascriptis kõige suurem käpp, siis mulle meeldis et sain ennast veel arendada selles.
+2. Õppisin läbi teamsi suhtlemist ja koostöö tegemist.
+3. Sain socket.io ja node js kohta rohkem teada ja kuidas neid täpsemalt kasutada.
 
 **Erki Tammeaid:**
 
