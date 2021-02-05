@@ -62,7 +62,7 @@ $(() => {
             $('#users').append(`<li> ${users[id]} </li>`);
         }
     });
-
+    
     // socket.on('set username', () => {
     //     while (username === "" || username === null) {
     //         username = prompt("Please enter a username");
@@ -72,7 +72,7 @@ $(() => {
     //     }
     // });
 		socket.on('set word', () => {
-            let words = ["monitor", "program", "application", "keyboard", "javascript", "gaming", "network", "algorithm", "backup", "browser", "browser", "download", "gigabyte", "hacker", "sudo", "motherboard", "password", "privacy", "resolution", "screen", "software", "storage", "teminal", "virus", "wireless", "screenshot"];
+            let words = ["monitor", "program", "application", "keyboard", "javascript", "gaming"];
 			let word = "";
 			while (word === "" || word === null) {
 					word = words[Math.floor(Math.random() * words.length)];

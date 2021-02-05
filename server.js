@@ -188,13 +188,6 @@ const resetGame = () => {
 const getWord = () => {
 		//hide start game / play again button
 		io.to('Game Room').emit('hide button');
-
-		//assigns random game master from connected users
-		const userKeys = Object.keys(users);
-		gameMaster = userKeys[Math.floor(Math.random() * userKeys.length)];
-
-		//gets word from game master
-		io.to(gameMaster).emit('set word');
 };
 
 const checkGuess = (letter) => {
@@ -225,7 +218,7 @@ const checkGuess = (letter) => {
 const checkEnoughPlayers = () => {
 		userCount = Object.keys(users).length;
 		//if there is more than 1 player, show start game button
-		if (userCount > 0) io.to('Game Room').emit('show start game button');
+		if (userCount > 1) io.to('Game Room').emit('show start game button');
 }
 
 
@@ -344,7 +337,6 @@ io.on('connection', (socket) => {
         });
     }
 }); //end of socket server listener
-
 http.listen(process.env.PORT || 8000, () => {
     console.log("Waiting for visitors");
 });
