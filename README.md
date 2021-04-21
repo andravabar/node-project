@@ -10,7 +10,6 @@ Markus Rätsep TAK-19 / Erki Tammeaid TAK-19 / Laura Lepik TAK-19 / Mikk Lehtsaa
 
 **TA-20 tiim:**
 Timo Pirn TA-20 / Andra Vabar TA-20 / Mattias A. Kaerma TA-20
-JavaScripti tiim:
 
 ## Kust me pärit oleme?
 Kõik tiimi liikmed on pärit Eestist ning õpivad Kuressaare Ametikoolis tarkvara arenduse erialal.
